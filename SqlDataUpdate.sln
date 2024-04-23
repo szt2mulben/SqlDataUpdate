@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataUpdate", "SqlDataUpdate\SqlDataUpdate.csproj", "{B8C0C542-826D-499F-94DF-D6B48012FEFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C0C542-826D-499F-94DF-D6B48012FEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C0C542-826D-499F-94DF-D6B48012FEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C0C542-826D-499F-94DF-D6B48012FEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C0C542-826D-499F-94DF-D6B48012FEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE56FC89-79BA-4C21-81BA-F465A6C69463}
+	EndGlobalSection
+EndGlobal
