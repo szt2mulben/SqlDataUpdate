@@ -33,7 +33,7 @@ namespace SqlDataUpdate
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=myServerAddress;Database=myFirstDatabase;User Id=myUsername;Password=myPassword;");
+            optionsBuilder.UseSqlServer("server=localhost;user id=root;password=;database=flyhighdb");
         }
     }
 
@@ -43,7 +43,7 @@ namespace SqlDataUpdate
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=myServerAddress;Database=mySecondDatabase;User Id=myUsername;Password=myPassword;");
+            optionsBuilder.UseSqlServer("server=localhost;user id=root;password=;database=flyhighdb2");
         }
     }
 
